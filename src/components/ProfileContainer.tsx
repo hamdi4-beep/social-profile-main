@@ -1,5 +1,5 @@
 import ProfileLinksContainer from "./ProfileLinksContainer"
-import avatarUrl from './assets/images/avatar-hamdi.jpg'
+import avatarUrl from '../assets/images/avatar-hamdi.jpg'
 
 function ProfileContainer() {
     return (
