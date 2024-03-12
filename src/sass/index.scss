@@ -32,8 +32,10 @@
         margin-top: 1.3em;
 
         a {
+            display: block;
             color: inherit;
             text-decoration: none;
+            margin-bottom: .8em;
         }
 
         button {
@@ -45,10 +47,6 @@
             width: 100%;
             padding: .8em;
             font: inherit;
-
-            &:not(:first-child) {
-                margin-top: .8em;
-            }
             
             &:hover {
                 background-color: $primary-clr-green;
