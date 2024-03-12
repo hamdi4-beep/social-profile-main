@@ -8,10 +8,10 @@ function LinksContainer() {
     ]
 
     return (
-      <div className="profile-links">
+      <div className="mt-4">
         {links.map(([social, link], i) => (
           <a href={link} key={i}>
-            <button>{social}</button>
+            <button className="bg-[#eee] hover:bg-[#e6e6e6] p-3 my-2 rounded-lg w-full block">{social}</button>
           </a>
         ))}
       </div>
