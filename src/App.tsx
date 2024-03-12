@@ -8,7 +8,7 @@ function App() {
     <div className="App my-4">
       <ProfileContainer />
 
-      <div className=" text-center">
+      <div className="text-center">
         Challenge by <a className={linkColor} href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a className={linkColor} href="https://www.frontendmentor.io/profile/hamdi4-beep">Hamdi Kamel</a>.
       </div>
